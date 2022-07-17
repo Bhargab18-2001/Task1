@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply cursor-pointer tracking-wider hover:shadow-inner transform hover:scale-105 hover:bg-opacity-70;
+}
